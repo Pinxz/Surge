@@ -3,7 +3,7 @@
 #!system=ios
 
 [Rule]
-URL-REGEX,dl.*mypikpak.com$,DIRECT
+URL-REGEX,dl.*//mypikpak.com$,DIRECT
 DOMAIN,pcdn.metartnetwork.com,DIRECT
 DOMAIN-KEYWORD,mypikpak,Proxy
 
