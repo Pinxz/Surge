@@ -1,0 +1,11 @@
+#!name=PikPak
+#!desc=PikPak分流
+#!system=ios
+
+[Rule]
+URL-REGEX,dl.*mypikpak.com$,DIRECT
+DOMAIN,pcdn.metartnetwork.com,DIRECT
+DOMAIN-KEYWORD,mypikpak,Proxy
+
+[MITM]
+hostname = %APPEND% .mypikpak.com
