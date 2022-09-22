@@ -8,4 +8,4 @@ DOMAIN,pcdn.metartnetwork.com,DIRECT
 DOMAIN-KEYWORD,mypikpak,Proxy
 
 [MITM]
-hostname = %APPEND% .mypikpak.com
+hostname = %APPEND% *.mypikpak.com
